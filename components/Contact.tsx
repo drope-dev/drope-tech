@@ -33,12 +33,12 @@ export default function Contact() {
             <div className="flex gap-4">
               <span className="text-[#4ade80] w-16 shrink-0">github</span>
               <a
-                href="https://github.com/dropefernandes"
+                href="https://github.com/drope-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#e2e8f0] hover:text-[#4ade80] transition-colors"
               >
-                /dropefernandes
+                /drope-dev
               </a>
             </div>
             <div className="flex gap-4">

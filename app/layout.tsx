@@ -1,29 +1,34 @@
 import type { Metadata } from "next";
+import LenisProvider from "@/components/LenisProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pedro Fernandes — Senior Backend Engineer",
-  description: "Senior Software Engineer with 8+ years building high-performance backend systems. Java, Go, Node.js, React, AWS.",
-  keywords: ["backend engineer", "java", "golang", "spring boot", "microservices", "freelance", "São Paulo"],
+  title: "Pedro Fernandes",
+  description:
+    "Senior Software Engineer with 8+ years building high-performance backend systems.",
   authors: [{ name: "Pedro Fernandes", url: "https://drope.dev" }],
   openGraph: {
-    title: "Pedro Fernandes — Senior Backend Engineer",
-    description: "Available for freelance projects. Java · Go · Node.js · React · AWS.",
+    title: "Pedro Fernandes",
+    description:
+      "Senior Software Engineer with 8+ years building high-performance backend systems.",
     url: "https://drope.dev",
     siteName: "drope.dev",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Pedro Fernandes — Senior Backend Engineer",
-    description: "Available for freelance projects. Java · Go · Node.js · React · AWS.",
+    title: "Pedro Fernandes",
+    description:
+      "Senior Software Engineer with 8+ years building high-performance backend systems.",
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <LenisProvider>{children}</LenisProvider>
+      </body>
     </html>
   );
 }

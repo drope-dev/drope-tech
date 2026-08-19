@@ -1,8 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 
-const title = 'Como estou organizando meus estudos na era da IA'
-const description = 'Um pouco sobre como estou estudando temas novos com IA, kanban e uma loja virtual construída em Go.'
+const title = 'Estudando na era da IA enquanto construo a Use Pera'
+const description = 'Como estou estudando temas novos com IA, kanban e a construção da Use Pera, uma loja virtual de bolsas de crochê.'
 ---
 
 <Layout title={title} description={description}>
@@ -18,10 +18,10 @@ const description = 'Um pouco sobre como estou estudando temas novos com IA, kan
     <header class="mb-14" data-reveal>
       <p class="text-sm text-[#555] mb-5">19 de agosto de 2026</p>
       <h1 class="text-3xl md:text-4xl font-semibold tracking-tight leading-tight text-[#ebebeb] mb-5">
-        Como estou organizando meus estudos na era da IA
+        Estudando na era da IA enquanto construo a Use Pera
       </h1>
       <p class="text-base text-[#999] leading-[1.7]">
-        Compartilhando o que tem funcionado para estudar assuntos novos sem ficar pulando de conteúdo em conteúdo.
+        Compartilhando o que estou estudando, como estou organizando o trabalho e o que um projeto real está me ensinando.
       </p>
     </header>
 
@@ -35,6 +35,44 @@ const description = 'Um pouco sobre como estou estudando temas novos com IA, kan
         Para isso, comecei a combinar algumas coisas simples: uso IA quando preciso destravar uma dúvida,
         organizo os próximos passos em um kanban e tento sempre conectar o estudo a algum projeto real.
       </p>
+
+      <aside class="rounded border border-[#252525] bg-[#141414] p-5 text-sm" data-reveal>
+        <p class="text-[#ebebeb] font-medium mb-3">O foco desta semana</p>
+        <p class="text-[#888] leading-[1.7]">
+          Estou estudando o <strong class="text-[#bbb] font-medium">C4 Model</strong> para diagramar a arquitetura
+          da Use Pera. A ideia é entender o sistema antes de sair escrevendo código — do contexto geral até os
+          componentes que vão formar a API.
+        </p>
+        <a
+          href="https://excalidraw.com/#json=hEA-3il5TVe6Q7gV96Z_a,ayRJvNUviOXCJLdoG4ZbGQ"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block mt-4 text-[#ebebeb] underline underline-offset-2 decoration-[#333] hover:decoration-[#ebebeb] transition-colors"
+        >
+          Ver o diagrama no Excalidraw →
+        </a>
+      </aside>
+
+      <section>
+        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">O que o C4 está me ajudando a enxergar</h2>
+        <p>
+          Em vez de começar pelo desenho de classes, estou tentando ir do mais amplo para o mais específico:
+        </p>
+        <div class="grid md:grid-cols-3 gap-2 mt-5 text-xs">
+          <div class="border border-[#252525] p-3">
+            <p class="text-[#555] mb-2">nível 1 · contexto</p>
+            <p class="text-[#aaa] leading-[1.6]">Compradora e administradora usando a plataforma, conectada a pagamento, shipping e CEP.</p>
+          </div>
+          <div class="border border-[#252525] p-3">
+            <p class="text-[#555] mb-2">nível 2 · containers</p>
+            <p class="text-[#aaa] leading-[1.6]">Browser, API Go, PostgreSQL, armazenamento de imagens e integrações externas.</p>
+          </div>
+          <div class="border border-[#252525] p-3">
+            <p class="text-[#555] mb-2">nível 3 · componentes</p>
+            <p class="text-[#aaa] leading-[1.6]">Catálogo, estoque, carrinho, checkout, pedidos, adapters e processamento de webhooks.</p>
+          </div>
+        </div>
+      </section>
 
       <section>
         <h2 class="text-lg font-medium text-[#ebebeb] mb-3">IA no meio do caminho</h2>
@@ -52,6 +90,35 @@ const description = 'Um pouco sobre como estou estudando temas novos com IA, kan
           aprender, o que está em andamento e o que ficou para revisar. Também fica mais difícil fingir que estou
           avançando só porque salvei mais um curso ou abri mais uma aba.
         </p>
+        <p class="mt-4">
+          No board da Use Pera, cada card tem um domínio, uma fase, uma prioridade e uma evidência esperada. Os
+          domínios são <span class="text-[#bbb]">PLATFORM</span>, <span class="text-[#bbb]">PRODUCTS</span>,
+          <span class="text-[#bbb]">USER</span>, <span class="text-[#bbb]">SALES</span>,
+          <span class="text-[#bbb]">PAYMENTS</span> e <span class="text-[#bbb]">FULFILLMENT</span>. O fluxo passa por
+          Backlog, Doing, Review e Done.
+        </p>
+
+        <div class="grid grid-cols-2 gap-2 mt-5 text-xs">
+          <div class="border border-[#252525] p-3">
+            <p class="text-[#555] mb-2">em review</p>
+            <p class="text-[#aaa]">Provider de shipping</p>
+            <p class="text-[#aaa] mt-1">Política de retirada</p>
+          </div>
+          <div class="border border-[#252525] p-3">
+            <p class="text-[#555] mb-2">próximo no backlog</p>
+            <p class="text-[#aaa]">Monólito modular em Go</p>
+            <p class="text-[#aaa] mt-1">PostgreSQL local</p>
+          </div>
+        </div>
+
+        <a
+          href="https://app.notion.com/p/21908b7ce05c4c669399c41a8df6d9a3"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block mt-4 text-sm text-[#ebebeb] underline underline-offset-2 decoration-[#333] hover:decoration-[#ebebeb] transition-colors"
+        >
+          Ver o kanban de desenvolvimento →
+        </a>
       </section>
 
       <section>
@@ -69,16 +136,45 @@ const description = 'Um pouco sobre como estou estudando temas novos com IA, kan
       </section>
 
       <section>
-        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">O projeto “impossível”</h2>
+        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">O projeto real: Use Pera</h2>
         <p>
-          Em paralelo, estou construindo com a minha esposa uma loja virtual. É um projeto que chamo de
-          “impossível” porque ele é grande o bastante para me tirar da zona de conforto. Tem produto, operação,
-          integrações e um monte de decisões que não aparecem quando tudo funciona apenas na minha máquina.
+          A Use Pera é a marca de bolsas descoladas de crochê da minha esposa. A Pera-Tech está construindo a
+          plataforma de ecommerce para colocar uma primeira venda completa de pé: catálogo, página de produto,
+          carrinho, checkout como convidada, PIX e cartão via Mercado Pago, entrega, retirada na loja e um painel
+          para acompanhar pedidos.
         </p>
         <p class="mt-4">
-          Ao mesmo tempo, o projeto virou meu laboratório para aprofundar Go, observabilidade e práticas de SRE.
-          Quero entender o que acontece quando algo dá errado: como investigar, quais métricas acompanhar e quais
-          alertas realmente merecem atenção.
+          A arquitetura inicial é um monólito modular em Go, com PostgreSQL e adapters para pagamento e shipping.
+          Também quero que webhooks sejam idempotentes e que as decisões de evolução sejam guiadas por métricas,
+          não pela vontade de adicionar tecnologia da moda.
+        </p>
+        <p class="mt-4">
+          É um projeto “impossível” no melhor sentido: existe uma cliente real, uma operação real e uma primeira
+          venda que precisa funcionar. Isso muda a forma de estudar. Não basta saber explicar uma ferramenta; preciso
+          entender onde ela entra, qual problema resolve e como vou operar o sistema depois.
+        </p>
+
+        <a
+          href="https://app.notion.com/p/Pera-Tech-Use-Pera-Ecommerce-3c1b921d081180889d96c2d6227a0112?source=copy_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block mt-4 text-sm text-[#ebebeb] underline underline-offset-2 decoration-[#333] hover:decoration-[#ebebeb] transition-colors"
+        >
+          Ver o contexto completo do projeto →
+        </a>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">Estudar virou parte do produto</h2>
+        <p>
+          O fluxo que estou tentando seguir é simples: problema real, discovery, C4 Model, domínio, tarefa pequena,
+          código, teste, operação e aprendizado. Cada etapa gera uma pergunta nova e, às vezes, um card novo no
+          kanban. É assim que o estudo deixa de ser uma lista de assuntos e começa a produzir decisões.
+        </p>
+        <p class="mt-4">
+          Agora, por exemplo, estou aprendendo C4 enquanto tento representar a Use Pera em diferentes níveis de
+          detalhe. Depois disso vêm a fundação do monólito, o catálogo e, mais adiante, a primeira venda. O objetivo
+          não é parecer pronto — é conseguir enxergar melhor o próximo passo.
         </p>
       </section>
 

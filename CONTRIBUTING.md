@@ -17,7 +17,7 @@ Os commits seguem [Conventional Commits](https://www.conventionalcommits.org/pt-
 
 ```text
 feat: add newsletter signup
-feat(post): add study workflow post
+feat(post): add Use Pera study workflow post
 fix: correct article metadata
 test: add post rendering test
 docs: update contribution guide

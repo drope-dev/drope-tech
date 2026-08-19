@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "commitlint": "commitlint --from=HEAD~1 --to=HEAD --verbose",
+    "prepare": "husky"
   },
   "dependencies": {
     "astro": "^5.7.0",
@@ -16,6 +18,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.5.4",
-    "postcss": "^8"
+    "postcss": "^8",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7"
   }
 }

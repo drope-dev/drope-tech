@@ -1,0 +1,98 @@
+---
+import Layout from '../../layouts/Layout.astro'
+
+const title = 'Como estou organizando meus estudos na era da IA'
+const description = 'Um pouco sobre como estou estudando temas novos com IA, kanban e uma loja virtual construída em Go.'
+---
+
+<Layout title={title} description={description}>
+  <article class="max-w-[640px] mx-auto px-6 py-12 md:py-20">
+    <nav class="mb-16">
+      <a href="/" class="text-sm font-medium text-[#ebebeb] hover:opacity-50 transition-opacity">
+        drope.dev
+      </a>
+      <span class="text-[#333] px-2">/</span>
+      <a href="/#writing" class="text-sm text-[#555] hover:text-[#ebebeb] transition-colors">writing</a>
+    </nav>
+
+    <header class="mb-14" data-reveal>
+      <p class="text-sm text-[#555] mb-5">19 de agosto de 2026</p>
+      <h1 class="text-3xl md:text-4xl font-semibold tracking-tight leading-tight text-[#ebebeb] mb-5">
+        Como estou organizando meus estudos na era da IA
+      </h1>
+      <p class="text-base text-[#999] leading-[1.7]">
+        Compartilhando o que tem funcionado para estudar assuntos novos sem ficar pulando de conteúdo em conteúdo.
+      </p>
+    </header>
+
+    <div class="space-y-8 text-[0.975rem] text-[#999] leading-[1.8]" data-reveal>
+      <p>
+        Nessa era de IA, tenho tentado entender melhor como estudar. Não no sentido de encontrar uma fórmula
+        perfeita, mas de descobrir um jeito que me ajude a sair da intenção e chegar na prática.
+      </p>
+
+      <p>
+        Para isso, comecei a combinar algumas coisas simples: uso IA quando preciso destravar uma dúvida,
+        organizo os próximos passos em um kanban e tento sempre conectar o estudo a algum projeto real.
+      </p>
+
+      <section>
+        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">IA no meio do caminho</h2>
+        <p>
+          A IA entrou na minha rotina de um jeito bem direto: tiro dúvidas, peço exemplos, comparo abordagens e
+          uso a conversa para organizar o que ainda está confuso. Às vezes ela acelera bastante; outras vezes,
+          a própria resposta me mostra que eu ainda não entendi o básico. E tudo bem — já é um sinal útil.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">Um kanban para não me perder</h2>
+        <p>
+          Colocar os estudos em um kanban parece simples, mas tem ajudado muito. Consigo enxergar o que quero
+          aprender, o que está em andamento e o que ficou para revisar. Também fica mais difícil fingir que estou
+          avançando só porque salvei mais um curso ou abri mais uma aba.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">Antes de começar, três perguntas</h2>
+        <p>
+          Um vídeo do
+          <a href="https://www.youtube.com/watch?v=EaD3st7Sdus&t=58s" target="_blank" rel="noopener noreferrer" class="text-[#ebebeb] underline underline-offset-2 decoration-[#333] hover:decoration-[#ebebeb] transition-colors">
+            Renato Augusto
+          </a>
+          me fez parar para pensar em um hábito que quero levar para qualquer assunto novo: antes de começar,
+          fazer três perguntas. É uma pausa rápida para entender por que estou estudando aquilo, o que espero
+          conseguir fazer depois e como vou perceber que realmente avancei. Parece pouco, mas ajuda a não confundir
+          assistir conteúdo com aprender.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-medium text-[#ebebeb] mb-3">O projeto “impossível”</h2>
+        <p>
+          Em paralelo, estou construindo com a minha esposa uma loja virtual. É um projeto que chamo de
+          “impossível” porque ele é grande o bastante para me tirar da zona de conforto. Tem produto, operação,
+          integrações e um monte de decisões que não aparecem quando tudo funciona apenas na minha máquina.
+        </p>
+        <p class="mt-4">
+          Ao mesmo tempo, o projeto virou meu laboratório para aprofundar Go, observabilidade e práticas de SRE.
+          Quero entender o que acontece quando algo dá errado: como investigar, quais métricas acompanhar e quais
+          alertas realmente merecem atenção.
+        </p>
+      </section>
+
+      <p>
+        Ainda é só o começo, mas resolvi compartilhar o caminho: o que estou estudando, onde estou travando e o
+        que está saindo do papel. Se você também está tentando aprender alguma coisa nova nessa era de IA, vamos
+        conversar.
+      </p>
+    </div>
+
+    <footer class="mt-16 pt-6 border-t border-[#222] text-sm text-[#555]" data-reveal>
+      <a href="mailto:pf95_@hotmail.com" class="hover:text-[#ebebeb] transition-colors">email</a>
+      <span class="text-[#2a2a2a] px-2">·</span>
+      <a href="https://linkedin.com/in/peofernandes" target="_blank" rel="noopener noreferrer" class="hover:text-[#ebebeb] transition-colors">linkedin</a>
+    </footer>
+  </article>
+</Layout>

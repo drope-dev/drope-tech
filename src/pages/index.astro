@@ -2,7 +2,11 @@
 import Layout from '../layouts/Layout.astro'
 
 const posts: { date: string; title: string; href: string }[] = [
-  // { date: '2026-08', title: '...', href: '/writing/...' },
+  {
+    date: '2026-08',
+    title: 'Como estou organizando meus estudos na era da IA',
+    href: '/writing/estudar-com-intencao',
+  },
 ]
 
 const projects: { name: string; description: string; href: string }[] = [
@@ -99,7 +103,7 @@ const projects: { name: string; description: string; href: string }[] = [
     </section>
 
     <!-- writing -->
-    <section data-reveal>
+    <section id="writing" data-reveal>
       <h2 class="text-sm font-medium text-[#ebebeb] mb-5">Writing</h2>
       {posts.length === 0 ? (
         <p class="text-sm text-[#333]">Nothing published yet.</p>

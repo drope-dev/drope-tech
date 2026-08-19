@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1934 -1213 1040 560" role="img" aria-labelledby="title description">
+  <title id="title">2 — System Context</title>
+  <desc id="description">Diagrama C4 da Use Pera</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="-1934" y="-1213" width="1040" height="560" fill="#ffffff"/>
+  <rect x="19.609185551484188" y="19.548757488058072" width="1000" height="520" rx="12" fill="#faf5ff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="40.60791726733487" y="36.83140219989309" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="start" dominant-baseline="hanging"><tspan x="40.60791726733487" dy="0">2 — System Context</tspan></text>
+<text x="40.60791726733487" y="70.83140219989309" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging"><tspan x="40.60791726733487" dy="0">Escopo: Use Pera como um único software system; integrações ainda genéricas.</tspan></text>
+<rect x="55.60791726733487" y="188.8314021998931" width="180" height="72" rx="12" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+<text x="145.60791726733487" y="199.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="145.60791726733487" dy="0">Buyer</tspan></text>
+<text x="145.60791726733487" y="224.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="145.60791726733487" dy="0">consulta e compra</tspan></text>
+<rect x="55.60791726733487" y="353.8314021998931" width="180" height="72" rx="12" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+<text x="145.60791726733487" y="364.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="145.60791726733487" dy="0">Admin</tspan></text>
+<text x="145.60791726733487" y="389.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="145.60791726733487" dy="0">cadastra e opera</tspan></text>
+<rect x="395.60791726733487" y="258.8314021998931" width="250" height="100" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="520.6079172673349" y="269.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="520.6079172673349" dy="0">Use Pera</tspan></text>
+<text x="520.6079172673349" y="308.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="520.6079172673349" dy="0">ecommerce MVP</tspan></text>
+<rect x="782.3242917081934" y="171.9050558872775" width="220" height="82" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="892.3242917081934" y="182.9050558872775" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="892.3242917081934" dy="0">Payment Provider</tspan></text>
+<text x="892.3242917081934" y="212.9050558872775" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="892.3242917081934" dy="0">PIX e cartão</tspan></text>
+<rect x="782.3242917081934" y="360.07440575955854" width="220" height="82" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="892.3242917081934" y="371.07440575955854" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="892.3242917081934" dy="0">Shipping Provider</tspan></text>
+<text x="892.3242917081934" y="401.07440575955854" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="892.3242917081934" dy="0">cotação, etiqueta e rastreio</tspan></text>
+<polyline points="241.60791726733464,227.98870719989327 389.6079172673351,305.69129719989314" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="315.5151558076582" y="246.3314021998931" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="315.5151558076582" dy="0">compra</tspan></text>
+<polyline points="241.60791726733464,386.80120719989293 389.6079172673351,311.87879719989314" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="318.60791726733464" y="348.19111719989314" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="318.60791726733464" dy="0">opera</tspan></text>
+<polyline points="651.6079172673349,312.88954364323865 776.3242917081936,397.0344643162131" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="713.9661044877641" y="334.962003979726" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="713.9661044877641" dy="0">cria envio /</tspan><tspan x="713.9661044877641" dy="20">rastreio</tspan></text>
+<polyline points="651.6079172673349,304.63145382882453 776.3242917081936,217.12320425834594" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="708.888512303404" y="234.00401529141095" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="708.888512303404" dy="0">cria / confirma</tspan><tspan x="708.888512303404" dy="20">pagamento</tspan></text>
+</svg>

@@ -3,7 +3,7 @@
   [post] - Título do post
 
   Exemplos:
-  [post] - Como estou organizando meus estudos na era da IA
+  [post] - Estudando na era da IA enquanto construo a Use Pera
   [post] - Observabilidade em uma loja virtual
 -->
 

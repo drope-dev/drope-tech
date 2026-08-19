@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2994 -634 1410 780" role="img" aria-labelledby="title description">
+  <title id="title">4 — Component Diagram — Use Pera API</title>
+  <desc id="description">Diagrama C4 da Use Pera</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="-2994" y="-634" width="1410" height="780" fill="#ffffff"/>
+  <rect x="20.395849409809216" y="20.244571816837265" width="1370" height="740" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="40.60791726733487" y="37.83140219989309" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="start" dominant-baseline="hanging"><tspan x="40.60791726733487" dy="0">4 — Component Diagram — Use Pera API</tspan></text>
+<text x="40.60791726733487" y="71.83140219989309" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging"><tspan x="40.60791726733487" dy="0">Escopo único: componentes dentro do container Use Pera API; PostgreSQL e providers são supporting containers.</tspan></text>
+<rect x="60.60791726733487" y="129.8314021998931" width="1030" height="570" rx="12" fill="none" stroke="#166534" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="74.60791726733487" y="141.8314021998931" fill="#166534" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="start" dominant-baseline="hanging"><tspan x="74.60791726733487" dy="0">Use Pera API — Go</tspan></text>
+<rect x="95.60791726733487" y="194.8314021998931" width="220" height="80" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text x="205.60791726733487" y="205.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="205.60791726733487" dy="0">Access Control</tspan></text>
+<text x="205.60791726733487" y="234.93261967238493" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="205.60791726733487" dy="0">admin auth e autorização</tspan></text>
+<rect x="405.35234667557916" y="193.9530957450446" width="220" height="80" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="515.3523466755792" y="204.9530957450446" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="515.3523466755792" dy="0">Product Catalog</tspan></text>
+<text x="515.3523466755792" y="233.9530957450446" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="515.3523466755792" dy="0">produto, preço e estoque</tspan></text>
+<rect x="770.2272488234212" y="188.32083316283774" width="220" height="80" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="880.2272488234212" y="199.32083316283774" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="880.2272488234212" dy="0">Cart &amp; Checkout</tspan></text>
+<text x="880.2272488234212" y="228.32083316283774" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="880.2272488234212" dy="0">carrinho e checkout</tspan></text>
+<rect x="95.60791726733487" y="359.8314021998931" width="220" height="80" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="205.60791726733487" y="370.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="205.60791726733487" dy="0">Order Management</tspan></text>
+<text x="205.60791726733487" y="399.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="205.60791726733487" dy="0">pedido e status</tspan></text>
+<rect x="438.2049388988803" y="369.7441139039739" width="220" height="80" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="548.3090710787606" y="380.6399817240937" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="548.3090710787606" dy="0">Payment Management</tspan></text>
+<text x="548.3090710787606" y="409.6399817240937" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="548.3090710787606" dy="0">cobrança e webhook</tspan></text>
+<rect x="770.2272488234212" y="371.7797300655032" width="220" height="80" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="880.2272488234212" y="382.675597885623" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="880.2272488234212" dy="0">Fulfillment Orchestrator</tspan></text>
+<text x="880.2272488234212" y="411.675597885623" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="880.2272488234212" dy="0">entrega e retirada</tspan></text>
+<rect x="95.60791726733487" y="524.8314021998931" width="220" height="80" rx="12" fill="#cffafe" stroke="#0891b2" stroke-width="2"/>
+<text x="205.60791726733487" y="535.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="205.60791726733487" dy="0">Outbox / Job Worker</tspan></text>
+<text x="205.60791726733487" y="564.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="205.60791726733487" dy="0">retries e processamento assíncrono</tspan></text>
+<rect x="415.662001506103" y="528.2912778539776" width="220" height="80" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="525.662001506103" y="539.2912778539776" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="525.662001506103" dy="0">Repositories</tspan></text>
+<text x="525.5578693262228" y="568.2912778539776" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="525.5578693262228" dy="0">persistência da aplicação</tspan></text>
+<rect x="785.366932561195" y="530.9987145308629" width="220" height="80" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="895.2628003813147" y="541.9987145308629" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="895.2628003813147" dy="0">Shipping Adapter</tspan></text>
+<text x="895.2628003813147" y="570.9987145308629" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="895.2628003813147" dy="0">porta para provider</tspan></text>
+<rect x="1157.3300218518455" y="199.70642262784054" width="190" height="70" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="1252.3300218518455" y="210.81391391029752" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1252.3300218518455" dy="0">PostgreSQL</tspan></text>
+<text x="1252.3300218518455" y="234.81391391029752" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="1252.3300218518455" dy="0">supporting container</tspan></text>
+<rect x="1157.3300218518455" y="344.7239109174361" width="190" height="70" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="1252.3300218518455" y="355.7239109174361" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1252.3300218518455" dy="0">Payment Provider</tspan></text>
+<text x="1252.3300218518455" y="379.7239109174361" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="1252.3300218518455" dy="0">supporting system</tspan></text>
+<rect x="1157.3300218518455" y="494.7239109174361" width="190" height="70" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="1252.3300218518455" y="505.7239109174361" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1252.3300218518455" dy="0">Shipping Provider</tspan></text>
+<text x="1252.3300218518455" y="529.7239109174361" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="1252.3300218518455" dy="0">supporting system</tspan></text>
+<polyline points="321.6079172673344,234.7806816891735 399.35234667557916,234.01981625576417" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="359.57536413168236" y="210.75807655368942" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="10.790614457710506" text-anchor="middle" dominant-baseline="hanging"><tspan x="359.57536413168236" dy="0">consulta preço</tspan></text>
+<polyline points="834.1592838654478,274.3208331628378 834.1592838654478,314.0761176813654 251.71988222530763,313.8314021998931 251.71988222530763,353.8314021998931" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="557.106493950841" y="303.95375994062925" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="557.106493950841" dy="0">cria pedido</tspan></text>
+<polyline points="321.60791726733487,400.32453853871243 432.2049388988803,409.26697756515455" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="664.2049388988803,409.86114305162675 764.2272488234212,411.6787009178503" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="714.2160938611505" y="400.7699219847385" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="714.2160938611505" dy="0">approved</tspan></text>
+<polyline points="641.662001506103,568.407788775741 779.366932561195,570.8982036090995" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="705.9208942599012" y="549.0423828643612" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="705.9208942599012" dy="0">cria etiqueta</tspan></text>
+<polyline points="1011.3669325611952,569.377010746631 1151.3300218518457,531.360614701668" fill="none" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1081.3484772065203" y="540.3688127241495" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1081.3484772065203" dy="0">label/tracking</tspan></text>
+<polyline points="996.2272488234212,410.63669641475883 1151.3300218518455,380.8819445681804" fill="none" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1073.7786353376334" y="385.75932049146957" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1073.7786353376334" dy="0">PIX/cartão</tspan></text>
+<polyline points="996.2272488234212,228.55807853139606 1151.3300218518455,234.48417725928226" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1072.084493950841" y="219.0836176813654" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1072.084493950841" dy="0">SQL</tspan></text>
+<polyline points="205.60791726733487,439.8314021998931 205.60791726733487,524.8314021998931" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="205.60791726733487" y="417.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="205.60791726733487" dy="0">publica evento</tspan></text>
+<polyline points="881.3959197008589,457.77973006550314 894.2422616837566,524.9987145308629" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="880.2272488234212" y="429.7797300655032" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="880.2272488234212" dy="0">enqueue job</tspan></text>
+<polyline points="631.3523466755792,233.72783535975884 764.2272488234212,228.56209354812347" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="691.0454833851063" y="215.03817866890154" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="9.23475474183615" text-anchor="middle" dominant-baseline="hanging"><tspan x="691.0454833851063" dy="0">disponibilidade</tspan></text>
+<polyline points="321.60791726733487,564.7314021998931 365.63495938671895,564.7314021998931 365.63495938671895,568.1912778539776 409.6620015061035,568.1912778539776" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="365.63495938671895" y="556.4613400269353" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="365.63495938671895" dy="0">persiste</tspan></text>
+</svg>

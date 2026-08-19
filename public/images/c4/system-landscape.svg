@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2993 -1214 1040 560" role="img" aria-labelledby="title description">
+  <title id="title">1 — System Landscape</title>
+  <desc id="description">Diagrama C4 da Use Pera</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="-2993" y="-1214" width="1040" height="560" fill="#ffffff"/>
+  <rect x="19.60173317002318" y="20.02310921655794" width="1000" height="520" rx="12" fill="#f8fafc" stroke="#475569" stroke-width="2" stroke-dasharray="10 8"/>
+<rect x="149.60791726733487" y="164.8314021998931" width="590" height="300" rx="12" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="39.60791726733487" y="37.83140219989309" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="start" dominant-baseline="hanging"><tspan x="39.60791726733487" dy="0">1 — System Landscape</tspan></text>
+<text x="39.60791726733487" y="71.83140219989309" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging"><tspan x="39.60791726733487" dy="0">Escopo: ecossistema Pera Tech / Studio Pera; sistemas relacionados ao produto.</tspan></text>
+<text x="163.5089717103465" y="176.8314021998931" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="start" dominant-baseline="hanging"><tspan x="163.5089717103465" dy="0">Pera Tech / Studio Pera</tspan></text>
+<rect x="189.60791726733487" y="244.8314021998931" width="170" height="72" rx="12" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+<text x="274.60791726733487" y="255.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="274.60791726733487" dy="0">Buyer</tspan></text>
+<text x="274.60791726733487" y="280.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="274.60791726733487" dy="0">person</tspan></text>
+<rect x="189.60791726733487" y="359.8314021998931" width="170" height="72" rx="12" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+<text x="274.60791726733487" y="370.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="274.60791726733487" dy="0">Admin</tspan></text>
+<text x="274.60791726733487" y="395.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="274.60791726733487" dy="0">person</tspan></text>
+<rect x="503.7838590905135" y="281.9092588966471" width="220" height="92" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text x="613.7838590905135" y="292.81340538831466" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="613.7838590905135" dy="0">Use Pera</tspan></text>
+<text x="613.7838590905135" y="327.81340538831466" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="613.7838590905135" dy="0">ecommerce system</tspan></text>
+<rect x="824.1028120723763" y="219.7599704339366" width="180" height="82" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="914.1028120723763" y="230.7599704339366" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="914.1028120723763" dy="0">Payment</tspan></text>
+<text x="914.1028120723763" y="260.7599704339366" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="914.1028120723763" dy="0">external system</tspan></text>
+<rect x="828.4316801906143" y="345.49000856359635" width="180" height="82" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="918.4316801906143" y="356.49000856359635" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="918.4316801906143" dy="0">Shipping Platform</tspan></text>
+<text x="918.4316801906143" y="386.49000856359635" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="918.4316801906143" dy="0">external system</tspan></text>
+<polyline points="729.7838590905135,323.902251402445 818.1028120723768,264.7843779281385" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="732.1079172673349" y="267.3314021998931" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="732.1079172673349" dy="0">pagamento</tspan></text>
+<polyline points="729.7838590905135,331.2771384592679 822.4316801906143,383.1395290009758" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="732.1079172673349" y="354.8314021998931" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="732.1079172673349" dy="0">envio</tspan></text>
+<rect x="160.01266099438408" y="108.73262366300492" width="220" height="48" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+<text x="270.0126609943841" y="115.18112804154362" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="270.0126609943841" dy="0">Nuvemshop</tspan></text>
+<text x="270.0126609943841" y="136.36578083366862" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="270.0126609943841" dy="0">legado / fora do MVP</tspan></text>
+<polyline points="365.60791726733487,280.73140219989307 497.7838590905135,327.80925889664695" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="431.6958881789242" y="294.27033054827007" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="431.6958881789242" dy="0">compra</tspan></text>
+<polyline points="365.60791726733487,401.9295257079177 497.7838590905135,327.80925889664695" fill="none" stroke="#1e1e1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="431.6958881789242" y="354.86939230228234" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="431.6958881789242" dy="0">administra</tspan></text>
+</svg>

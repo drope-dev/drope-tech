@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2994 -634 1410 780" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1410 780" role="img" aria-labelledby="title description">
   <title id="title">4 — Component Diagram — Use Pera API</title>
   <desc id="description">Diagrama C4 da Use Pera</desc>
   <defs>
@@ -7,7 +7,7 @@
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
     </marker>
   </defs>
-  <rect x="-2994" y="-634" width="1410" height="780" fill="#ffffff"/>
+  <rect x="0" y="0" width="1410" height="780" fill="#ffffff"/>
   <rect x="20.395849409809216" y="20.244571816837265" width="1370" height="740" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" stroke-dasharray="10 8"/>
 <text x="40.60791726733487" y="37.83140219989309" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="start" dominant-baseline="hanging"><tspan x="40.60791726733487" dy="0">4 — Component Diagram — Use Pera API</tspan></text>
 <text x="40.60791726733487" y="71.83140219989309" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging"><tspan x="40.60791726733487" dy="0">Escopo único: componentes dentro do container Use Pera API; PostgreSQL e providers são supporting containers.</tspan></text>

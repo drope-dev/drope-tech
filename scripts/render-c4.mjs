@@ -90,7 +90,7 @@ const renderBlock = (block) => {
   }).join('\n')
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="${view.x} ${view.y} ${view.width} ${view.height}" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${view.width} ${view.height}" role="img" aria-labelledby="title description">
   <title id="title">${escapeXml(block.title)}</title>
   <desc id="description">Diagrama C4 da Use Pera</desc>
   <defs>
@@ -98,7 +98,7 @@ const renderBlock = (block) => {
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
     </marker>
   </defs>
-  <rect x="${view.x}" y="${view.y}" width="${view.width}" height="${view.height}" fill="#ffffff"/>
+  <rect x="0" y="0" width="${view.width}" height="${view.height}" fill="#ffffff"/>
   ${content}
 </svg>
 `

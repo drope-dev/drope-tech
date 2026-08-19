@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-873 -1214 1340 560" role="img" aria-labelledby="title description">
+  <title id="title">3 — Container Diagram — Use Pera</title>
+  <desc id="description">Diagrama C4 da Use Pera</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="-873" y="-1214" width="1340" height="560" fill="#ffffff"/>
+  <rect x="19.5089717103466" y="20.023109216557714" width="1300" height="520" rx="12" fill="#ecfeff" stroke="#0891b2" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="39.60791726733487" y="37.83140219989309" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="start" dominant-baseline="hanging"><tspan x="39.60791726733487" dy="0">3 — Container Diagram — Use Pera</tspan></text>
+<text x="39.60791726733487" y="71.83140219989309" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging"><tspan x="39.60791726733487" dy="0">Escopo: um software system; containers são aplicações ou data stores.</tspan></text>
+<rect x="54.60791726733487" y="179.8314021998931" width="150" height="70" rx="12" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+<text x="129.60791726733487" y="190.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="129.60791726733487" dy="0">Buyer</tspan></text>
+<text x="129.60791726733487" y="214.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="129.60791726733487" dy="0">browser</tspan></text>
+<rect x="54.60791726733487" y="364.8314021998931" width="150" height="70" rx="12" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+<text x="129.60791726733487" y="375.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="129.60791726733487" dy="0">Admin</tspan></text>
+<text x="129.60791726733487" y="399.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="129.60791726733487" dy="0">browser</tspan></text>
+<rect x="309.5262654147971" y="160.64770304504646" width="250" height="90" rx="12" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="434.5262654147971" y="171.55184953671414" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="434.5262654147971" dy="0">Loja pública</tspan></text>
+<text x="434.5262654147971" y="205.55184953671414" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="434.5262654147971" dy="0">web app</tspan></text>
+<rect x="300.50366743692757" y="344.8314021998931" width="250" height="90" rx="12" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="425.50366743692757" y="355.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="425.50366743692757" dy="0">Painel administrativo</tspan></text>
+<text x="425.50366743692757" y="389.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="425.50366743692757" dy="0">web app</tspan></text>
+<rect x="669.6079172673349" y="239.8314021998931" width="300" height="120" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="819.6079172673349" y="250.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="819.6079172673349" dy="0">Use Pera API</tspan></text>
+<text x="819.6079172673349" y="299.8314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="819.6079172673349" dy="0">Go • monólito modular</tspan><tspan x="819.6079172673349" dy="15">HTTP + outbox worker</tspan></text>
+<rect x="1079.6079172673349" y="134.8314021998931" width="190" height="75" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="1174.6079172673349" y="145.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1174.6079172673349" dy="0">PostgreSQL</tspan></text>
+<text x="1174.6079172673349" y="172.3314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="1174.6079172673349" dy="0">data store</tspan></text>
+<rect x="1079.6079172673349" y="254.8314021998931" width="190" height="75" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="1174.6079172673349" y="265.7386407402165" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1174.6079172673349" dy="0">Payment Provider</tspan></text>
+<text x="1174.5089717103465" y="292.3314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="1174.5089717103465" dy="0">HTTPS / webhook</tspan></text>
+<rect x="1079.6079172673349" y="374.8314021998931" width="190" height="75" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="1174.6079172673349" y="385.8314021998931" fill="#1f2937" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1174.6079172673349" dy="0">Shipping Provider</tspan></text>
+<text x="1174.6079172673349" y="412.3314021998931" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="hanging"><tspan x="1174.6079172673349" dy="0">HTTPS / API</tspan></text>
+<polyline points="210.60791726733487,214.31332535774106 303.5262654147971,206.18177988719845" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="257.0670913410661" y="200.2475526224698" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="257.0670913410661" dy="0">HTTPS</tspan></text>
+<polyline points="204.60791726733487,399.8314021998931 294.50366743692757,390.46551853606013" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="249.55579235213122" y="385.14846036797655" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="249.55579235213122" dy="0">HTTPS</tspan></text>
+<polyline points="565.5262654147971,209.69959472989547 669.6079172673349,279.8314021998931" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="617.567091341066" y="234.76549846489422" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="617.567091341066" dy="0">JSON/HTTPS</tspan></text>
+<polyline points="556.5036674369276,386.3136262821729 669.6079172673349,319.8314021998931" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="613.0557923521312" y="343.072514241033" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="613.0557923521312" dy="0">JSON/HTTPS</tspan></text>
+<polyline points="975.6079172673349,299.42057732204694 1075.3068775870001,292.394710535621" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1025.4573974271675" y="285.907643928834" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1025.4573974271675" dy="0">API</tspan></text>
+<polyline points="975.6079172673349,305.97952038171104 1073.6079172673349,406.2027840180749" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1024.6079172673349" y="346.0911521998928" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1024.6079172673349" dy="0">API</tspan></text>
+<polyline points="975.6079172673349,292.88861129080203 1073.6079172673349,179.29369310898392" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1024.6079172673349" y="226.09115219989303" fill="#1e1e1e" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="hanging"><tspan x="1024.6079172673349" dy="0">SQL</tspan></text>
+</svg>

@@ -72,6 +72,68 @@ const description = 'Como estou estudando temas novos com IA, kanban e a constru
             <p class="text-[#aaa] leading-[1.6]">Catálogo, estoque, carrinho, checkout, pedidos, adapters e processamento de webhooks.</p>
           </div>
         </div>
+
+        <div class="space-y-8 mt-8">
+          <figure>
+            <div class="border border-[#252525] bg-white overflow-hidden">
+              <img
+                src="/images/c4/system-landscape.svg"
+                alt="System Landscape da Use Pera, mostrando compradores, administradora, plataforma, pagamento, shipping e Nuvemshop"
+                loading="lazy"
+                class="block w-full h-auto"
+              />
+            </div>
+            <figcaption class="text-xs text-[#555] leading-[1.6] mt-2">
+              <span class="text-[#888]">1 — System Landscape.</span> Antes de olhar para a aplicação, desenho o
+              ecossistema: quem usa, quais sistemas externos existem e o que fica legado ou fora do MVP.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <div class="border border-[#252525] bg-white overflow-hidden">
+              <img
+                src="/images/c4/system-context.svg"
+                alt="System Context da Use Pera, com compradores e administradora conectados ao ecommerce e aos provedores"
+                loading="lazy"
+                class="block w-full h-auto"
+              />
+            </div>
+            <figcaption class="text-xs text-[#555] leading-[1.6] mt-2">
+              <span class="text-[#888]">2 — System Context.</span> Aqui a Use Pera aparece como um único sistema,
+              com as relações principais de compra, operação, pagamento e envio.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <div class="border border-[#252525] bg-white overflow-hidden">
+              <img
+                src="/images/c4/container-diagram.svg"
+                alt="Container Diagram da Use Pera, mostrando loja pública, painel administrativo, API Go, PostgreSQL e providers"
+                loading="lazy"
+                class="block w-full h-auto"
+              />
+            </div>
+            <figcaption class="text-xs text-[#555] leading-[1.6] mt-2">
+              <span class="text-[#888]">3 — Container Diagram.</span> Este é o nível que mais ajuda nas decisões de
+              arquitetura agora: o que será aplicação, o que será armazenamento e o que continua sendo integração.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <div class="border border-[#252525] bg-white overflow-hidden">
+              <img
+                src="/images/c4/component-diagram.svg"
+                alt="Component Diagram da Use Pera API, com catálogo, checkout, pedidos, pagamentos, fulfillment e worker"
+                loading="lazy"
+                class="block w-full h-auto"
+              />
+            </div>
+            <figcaption class="text-xs text-[#555] leading-[1.6] mt-2">
+              <span class="text-[#888]">4 — Component Diagram.</span> Só depois entro nos componentes da API: catálogo,
+              checkout, pedidos, pagamento, fulfillment, repositories e processamento assíncrono.
+            </figcaption>
+          </figure>
+        </div>
       </section>
 
       <section>
